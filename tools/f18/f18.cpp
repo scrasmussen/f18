@@ -384,7 +384,7 @@ void Link(std::vector<std::string> &relocatables, DriverOptions &driver) {
 }
 
 int main(int argc, char *const argv[]) {
-
+  std::cout << "ARTLESS IS HERE!" << std::endl;
   atexit(CleanUpAtExit);
 
   DriverOptions driver;
